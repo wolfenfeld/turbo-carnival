@@ -17,21 +17,14 @@ sudo chmod 777 Anaconda3-2019.07-Linux-x86_64.sh
 .Anaconda3-2019.07-Linux-x86_64.sh
 
 # Chromium
-apt-get install chromium
-
-# Jupyter Lab
+sudo apt-get install chromium
 
 # Git Kraken
-apt-get install libgnome-keyring0
-apt-get install libcurl3
+sudo apt-get install libgnome-keyring0 -y
+sudo apt-get install libcurl3 -y
 wget https://release.gitkraken.com/linux/gitkraken-amd64.deb
-dpkg -i gitkraken-amd64.deb
 
 # Atom
-sudo add-apt-repository ppa:webupd8team/atom
-sudo apt-get update
-sudo apt-get install atom
 
 # Pycharm
-pycharm
 
