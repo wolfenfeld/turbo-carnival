@@ -15,6 +15,9 @@ sudo chsh -s /usr/bin/zsh $USER
 wget https://repo.anaconda.com/archive/Anaconda3-2019.07-Linux-x86_64.sh
 sudo chmod 777 Anaconda3-2019.07-Linux-x86_64.sh
 .Anaconda3-2019.07-Linux-x86_64.sh
+echo 'export PATH="/home/<user name>/anaconda3/bin:$PATH"' >> .zshrc
+
+
 
 # Chromium
 sudo apt-get install chromium
