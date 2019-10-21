@@ -34,3 +34,4 @@ wget https://release.gitkraken.com/linux/gitkraken-amd64.deb
 # Ruby
 sudo apt-get install ruby-full build-essential
 sudo gem install jekyll bundler
+bundle install
