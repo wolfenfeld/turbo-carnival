@@ -31,3 +31,5 @@ wget https://release.gitkraken.com/linux/gitkraken-amd64.deb
 
 # Pycharm
 
+# Ruby
+sudo apt-get install ruby-full build-essential
